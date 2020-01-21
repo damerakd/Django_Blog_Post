@@ -34,6 +34,6 @@ Then from navigating to serverpublicIp:8000 you can view the application running
 
 
 Functionalities:
---> Implemented back end database for storing users and there Posts
---> Different Users can login and add there Posts
+--> Implemented back end database for storing users and there Posts\n
+--> Different Users can login and add there Posts\n
 --> Users can request password reset through email if they forgot password
