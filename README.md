@@ -16,7 +16,7 @@ For SSH Key Based Authentication:
 
 --> ssh-keygen -b 4096 -t rsa -m pem
 
---> scp ~/.ssh/id_rsa.pub lakshman@IP:~/.ssh/authorized_keys
+--> Use SCP command to copy public key from local to EC2 instance
 
 --> chmod 700 ~/.ssh/
 
@@ -69,8 +69,3 @@ Functionalities:
 --> Users can request password reset through email if they forgot password
 
 --> Followed security best practices to use host header validation and to securely store secrets
-
-
-
-
-
